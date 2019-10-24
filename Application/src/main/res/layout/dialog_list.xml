@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_dialog"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/title_view"
+        android:padding="20dp"
+        android:text="Title"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"/>
+
+    <View
+        android:layout_below="@id/title_view"
+        android:background="#eaeaea"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></ListView>
+
+    <View
+        android:layout_above="@id/cancel_view"
+        android:background="#eaeaea"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:padding="20dp"
+        android:textColor="#222222"
+        android:background="@drawable/background_dialog"
+        android:id="@+id/cancel_view"
+        android:text="취소"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
