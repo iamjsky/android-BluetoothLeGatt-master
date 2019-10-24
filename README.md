@@ -6,10 +6,10 @@ This repo has been migrated to [github.com/android/connectivity][1]. Please chec
 
 [1]: https://github.com/android/connectivity
 
-Notify, Write uuid, Properties 자동 설정
-플러그인 설계전 주요 클래스, 메소드 설계중 Android Native App Test 완료, 플러그인화 진행중
-기본 샘플 출처 : Google Developer Github (GoogleSample)
-BLE4.0 이상 
+ # Notify, Write uuid, Properties 자동 설정
+#  플러그인 설계전 주요 클래스, 메소드 설계중 Android Native App Test 완료, 플러그인화 진행중
+  # 기본 샘플 출처 : Google Developer Github (GoogleSample)
+ # BLE4.0 이상 
  E/ViewRootImpl: sendUserActionEvent() returned.
 2019-10-24 18:04:38.465 21296-21296/com.example.android.bluetoothlegatt E/BluetoothAdapter: LE Scan has already started
 2019-10-24 18:04:41.015 21296-21296/com.example.android.bluetoothlegatt E/APPTEST: device : D4:36:39:DB:3B:A6
