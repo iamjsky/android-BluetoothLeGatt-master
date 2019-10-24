@@ -67,5 +67,11 @@
     </LinearLayout>
     <ExpandableListView android:id="@+id/gatt_services_list"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:onClick="onSend"
+        android:text="Send s/i/r/2/3/4/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
